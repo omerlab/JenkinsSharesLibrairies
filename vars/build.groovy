@@ -1,4 +1,5 @@
 // this is a function that can be call in a pipeline jobs
+// It will easy our pipeline readability
 def call(String mavenGoal){
   
   if ("${mavenGoal}" == "Clean")
