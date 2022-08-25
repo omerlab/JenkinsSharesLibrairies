@@ -1,3 +1,4 @@
+// this is a function that can be call in a pipeline jobs
 def call(String mavenGoal){
   
   if ("${mavenGoal}" == "Clean")
